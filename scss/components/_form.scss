@@ -1,0 +1,82 @@
+.ccform{
+  margin-bottom: 50px;
+  .ccfield-prepend:last-of-type{
+    text-align: center;
+    input.ccbtn{
+      float: none;
+      display: inline-block;
+      @include transition_mix;
+    }
+  }
+}
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: pointer;
+  -webkit-transition: 0.6s ease-in-out;
+  -moz-transition: 0.6s ease-in-out;
+  -ms-transition: 0.6s ease-in-out;
+  -o-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+}
+
+.fa:hover {
+  color: #d8850e;
+
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.ccfield-prepend {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.ccform-addon {
+  color: #f8ae45;
+  float: left;
+  padding: 8px;
+  width: 8%;
+  background: #FFFFFF;
+  text-align: center;
+}
+
+.ccformfield {
+  color: #000000;
+  background: #FFFFFF;
+  border: none;
+  padding: 15.5px;
+  border-bottom: 1px solid gray;
+  width: 91.9%;
+  display: block;
+  //	font-family: 'Lato',Arial,sans-serif;
+  font-size: 14px;
+}
+
+.ccformfield:focus {
+  outline: none;
+}
+
+.ccbtn {
+  display: block;
+  border: none;
+  background: #f8ae45;
+  float: right;
+  color: #FFFFFF;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ccbtn:hover {
+  background: #d8850e;
+
+}

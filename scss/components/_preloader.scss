@@ -1,0 +1,284 @@
+.preloader {
+  text-align: center;
+  //background: url("../img/medical-pattern-design_1061-360.jpg");
+  /*    height: 97vh;*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 99999;
+  svg{
+    -webkit-transform: scale(2,2);
+    -moz-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+    -o-transform: scale(2,2);
+    transform: scale(2,2);
+  }
+}
+
+.tooth__div {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0.7;
+}
+
+.plane {
+  animation: plane 5s infinite;
+  -webkit-animation: plane 5s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-transform-origin: 430% 35%;
+  transform-origin: 430% 35%;
+}
+
+.plane1 {
+  animation: plane1 10s infinite;
+  -webkit-animation: plane1 10s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  position: absolute;
+  left: -20%;
+  bottom: -150px;
+  transition: 3s ease-in-out;
+}
+
+.plane2 {
+  animation: plane2 14s infinite;
+  -webkit-animation: plane2 14s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  position: absolute;
+  right: -20%;
+  bottom: 50vh;
+  transition: 3s ease-in-out;
+  /*    transform: rotate(180deg);*/
+}
+
+.plane3 {
+  animation: plane3 9s infinite;
+  -webkit-animation: plane3 9s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  position: absolute;
+  left: -100%;
+  bottom: -10%;
+  transition: 3s ease-in-out;
+}
+.plane4 {
+  animation: plane4 10s infinite;
+  -webkit-animation: plane4 10s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  position: absolute;
+  right: -100%;
+  bottom: 70%;
+  transition: 3s ease-in-out;
+  /*    transform: rotate(270deg);*/
+}
+
+.fire1 {
+  animation: fire1 3s infinite;
+  -webkit-animation: fire1 3s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-transform-origin: 400% 1%;
+  transform-origin: 400% 1%;
+}
+
+.fire2 {
+  animation: fire2 3s infinite;
+  -webkit-animation: fire2 3s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-transform-origin: 400% 1%;
+  transform-origin: 400% 1%;
+}
+
+.fire3 {
+  animation: fire3 3s infinite;
+  -webkit-animation: fire3 3s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-transform-origin: 400% 1%;
+  transform-origin: 400% 1%;
+}
+
+.fire4 {
+  animation: fire4 3s infinite;
+  -webkit-animation: fire4 3s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-transform-origin: 400% 1%;
+  transform-origin: 400% 1%;
+}
+
+.fire5 {
+  animation: fire5 3s infinite;
+  -webkit-animation: fire5 3s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-transform-origin: 400% 1%;
+  transform-origin: 400% 1%;
+}
+
+.fire6 {
+  animation: fire6 3s infinite;
+  -webkit-animation: fire6 3s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-transform-origin: 400% 1%;
+  transform-origin: 400% 1%;
+}
+
+.tooth {
+  animation: tooth 3s infinite;
+  -webkit-animation: tooth 4s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  transform-origin: center center;
+
+}
+
+@keyframes plane {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fire1 {
+  0% {
+    transform: scaleY(0.4);
+  }
+  50% {
+    transform: scaleY(1.5);
+  }
+  100% {
+    transform: scaleY(0.4);
+  }
+}
+
+@keyframes fire2 {
+  0% {
+    transform: scaleY(0.9);
+  }
+  50% {
+    transform: scaleY(1.7);
+  }
+  100% {
+    transform: scaleY(0.9);
+  }
+}
+
+@keyframes fire3 {
+  0% {
+    transform: scaleY(0.1);
+  }
+  50% {
+    transform: scaleY(1.2);
+  }
+  100% {
+    transform: scaleY(0.1);
+  }
+}
+
+@keyframes fire4 {
+  0% {
+    transform: scaleY(0.4);
+  }
+  50% {
+    transform: scaleY(4.5);
+  }
+  100% {
+    transform: scaleY(0.4);
+  }
+}
+
+@keyframes fire5 {
+  0% {
+    transform: scaleY(0.9);
+  }
+  50% {
+    transform: scaleY(5.7);
+  }
+  100% {
+    transform: scaleY(0.9);
+  }
+}
+
+@keyframes fire6 {
+  0% {
+    transform: scaleY(0.1);
+  }
+  50% {
+    transform: scaleY(7.2);
+  }
+  100% {
+    transform: scaleY(0.1);
+  }
+}
+
+@keyframes tooth {
+  0% {
+    /*        transform: translateY(12%) translateX(0%);*/
+  }
+  25% {
+    /*        transform: translateX(12%) translateY(0%);*/
+  }
+  50% {
+    /*        transform: translateY(-12%) translateX(0%);*/
+    opacity: 0.5;
+    transform: scale(1.1);
+  }
+  75% {
+    /*        transform: translateX(-12%) translateY(0%);*/
+  }
+  100% {
+    /*        transform: translateY(12%) translateX(0%);*/
+  }
+}
+
+@keyframes plane1 {
+  from {
+    bottom: -50vh;
+  }
+  to {
+    bottom: 150vh;
+  }
+}
+
+@keyframes plane2 {
+  from {
+    bottom: 150vh;
+  }
+  to {
+    bottom: -50vh;
+  }
+}
+@keyframes plane3 {
+  from {
+    left: -150vh;
+  }
+  to {
+    left: 150vh;
+  }
+}
+@keyframes plane4 {
+  from {
+    right: -50vw;
+  }
+  to {
+    right: 150vw;
+    /*        bottom: 100vh;*/
+  }
+}
