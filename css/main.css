@@ -6145,7 +6145,7 @@ footer p {
 
 /* line 19, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_cards.scss */
 .blog-card.spring-fever {
-  background: url(../../img/pattern.png) no-repeat;
+  background: url(../img/pattern.png) no-repeat;
   background-size: cover;
 }
 
@@ -6206,7 +6206,7 @@ footer p {
 .carousel {
   margin: 50px 0;
   padding: 50px 0;
-  background: url(../../img/carousel_patern.png);
+  background: url(../img/carousel_patern.png);
   background-attachment: fixed;
   background-size: contain;
 }
