@@ -23,6 +23,7 @@
   -ms-transition: 0.6s ease-in-out;
   -o-transition: 0.6s ease-in-out;
   transition: 0.6s ease-in-out;
+  color: #D0BB57;
 }
 
 .fa:hover {
@@ -67,16 +68,21 @@
 .ccbtn {
   display: block;
   border: none;
-  background: #f8ae45;
+  background: none;
+  border: 1px solid;
   float: right;
-  color: #FFFFFF;
-  padding: 10px;
+  color: $yellow;
+  padding: 10px 50px;
   cursor: pointer;
   text-decoration: none;
   font-weight: bold;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .ccbtn:hover {
-  background: #d8850e;
+  background: $yellow;
+  color: white;
 
 }
