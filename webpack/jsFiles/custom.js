@@ -13,22 +13,30 @@ jQuery(document).ready(function () {
     });
 
 
-
-    $(".scroll-up").click(function () {
-        $("html, body").animate({
-            scrollTop: 0
-        }, 1500);
-        return false;
+    $('a[href*=\\#].scroll').on('click', function (event) {
+        event.preventDefault();
+        $('html,body').animate({
+            scrollTop: $(this.hash).offset().top
+        }, 1000, "swing");
     });
 
 
 });
 
 
-//NICE SCROLL
-jQuery(function () {
-    jQuery("body").niceScroll();
-});
+// //NICE SCROLL
+// jQuery(function () {
+//     jQuery("body").niceScroll();
+// });
 
+
+
+$(document).ready(function () {
+    // $("html").niceScroll();
+    $("html").niceScroll({
+        scrollspeed: 80,
+        mousescrollstep: 80,
+    });
+});
 
 

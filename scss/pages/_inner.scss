@@ -158,6 +158,9 @@ body {
         //margin-bottom: 50px;
         font-size: 18px;
     }
+    h3{
+        color: $yellow;
+    }
 }
 
 .flex__block {
@@ -166,4 +169,22 @@ body {
 
 .image__block {
     border-radius: 10px;
+}
+
+
+.partners__block a img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.3;
+    -webkit-transition: 0.6s ease-in-out;
+    -moz-transition: 0.6s ease-in-out;
+    -ms-transition: 0.6s ease-in-out;
+    -o-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
+
+    &:hover{
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        opacity: 1;
+    }
 }
