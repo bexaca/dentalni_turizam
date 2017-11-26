@@ -18299,6 +18299,9 @@ $(document).ready(function () {
             e.preventDefault();
         }
     });
+    $('.ccformfield').on('keydown', function () {
+        $('.alert__block').removeClass('active__alert');
+    });
 });
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 

@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58b02597-6e27-4a3f-bd99-26535ef49cb4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/external_css/custom.css" afterPath="$PROJECT_DIR$/css/external_css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/external_css/slick.css" afterPath="$PROJECT_DIR$/css/external_css/slick.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/external_css/style.css" afterPath="$PROJECT_DIR$/css/external_css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.map" afterPath="$PROJECT_DIR$/css/main.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bundle.js" afterPath="$PROJECT_DIR$/js/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/components/_form.scss" afterPath="$PROJECT_DIR$/scss/components/_form.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/main.scss" afterPath="$PROJECT_DIR$/scss/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/pages/_inner.scss" afterPath="$PROJECT_DIR$/scss/pages/_inner.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack/jsFiles/custom.js" afterPath="$PROJECT_DIR$/webpack/jsFiles/custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack/jsFiles/replace_me.js" afterPath="$PROJECT_DIR$/webpack/jsFiles/replace_me.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -56,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="replace_me.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="replace_me.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webpack/jsFiles/replace_me.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+            <state relative-caret-position="765">
+              <caret line="66" column="33" lean-forward="false" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -86,7 +75,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_inner.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_inner.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/pages/_inner.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -177,12 +166,12 @@
         <option value="$PROJECT_DIR$/scss/components/_cards.scss" />
         <option value="$PROJECT_DIR$/../../../../apache/conf/extra/httpd-vhosts.conf" />
         <option value="$PROJECT_DIR$/scss/main.scss" />
-        <option value="$PROJECT_DIR$/webpack/jsFiles/replace_me.js" />
         <option value="$PROJECT_DIR$/scss/components/_form.scss" />
         <option value="$PROJECT_DIR$/scss/components/_alert.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/pages/_inner.scss" />
         <option value="$PROJECT_DIR$/webpack/jsFiles/custom.js" />
+        <option value="$PROJECT_DIR$/webpack/jsFiles/replace_me.js" />
       </list>
     </option>
   </component>
@@ -317,12 +306,12 @@
       <workItem from="1510773625077" duration="6180000" />
       <workItem from="1511298381811" duration="1806000" />
       <workItem from="1511711650049" duration="12176000" />
-      <workItem from="1511728808939" duration="1185000" />
+      <workItem from="1511728808939" duration="2034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40354000" />
+    <option name="totallyTimeSpent" value="41203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -606,14 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/components/_carousel.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/components/_cards.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -668,14 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/jsFiles/replace_me.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -694,6 +667,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scss/pages/_inner.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_carousel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webpack/jsFiles/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -702,10 +691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/pages/_inner.scss">
+    <entry file="file://$PROJECT_DIR$/webpack/jsFiles/replace_me.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        <state relative-caret-position="765">
+          <caret line="66" column="33" lean-forward="false" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
           <folding />
         </state>
       </provider>

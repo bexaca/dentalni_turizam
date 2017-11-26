@@ -64,4 +64,7 @@ $(document).ready(function () {
             e.preventDefault();
         }
     });
+    $('.ccformfield').on('keydown', function () {
+       $('.alert__block').removeClass('active__alert');
+    });
 });
