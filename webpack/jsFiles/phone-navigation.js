@@ -31,5 +31,15 @@ $(document).ready(function () {
         }
     });
 
+    $('.menu__item a').click(function () {
+        $('#icon-wrap-2').removeClass('toClose').addClass('toOpen');
+        $('.menu__items').toggleClass('menu__items-active');
+        setTimeout(function () {
+
+            $('.menu__block').toggleClass('menu__active');
+        }, 600);
+        i--;
+    });
+
 
 })

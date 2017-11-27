@@ -11,6 +11,9 @@
   -ms-transition: 0.6s ease-in-out;
   -o-transition: 0.6s ease-in-out;
   transition: 0.6s ease-in-out;
+  @include respond-to(md){
+    display: none;
+  }
   &:hover {
     width: 5.2%;
   }

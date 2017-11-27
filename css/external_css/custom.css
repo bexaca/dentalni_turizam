@@ -184,7 +184,7 @@ nav a:focus {
   height: 30px;
   width: 100%;
   left: 0;
-  z-index: 1000;
+  z-index: 15;
 }
 
 /* line 182, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/external_css/custom.scss */

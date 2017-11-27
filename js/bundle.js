@@ -18344,6 +18344,16 @@ $(document).ready(function () {
             i--;
         }
     });
+
+    $('.menu__item a').click(function () {
+        $('#icon-wrap-2').removeClass('toClose').addClass('toOpen');
+        $('.menu__items').toggleClass('menu__items-active');
+        setTimeout(function () {
+
+            $('.menu__block').toggleClass('menu__active');
+        }, 600);
+        i--;
+    });
 });
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
