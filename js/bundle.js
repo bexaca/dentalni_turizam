@@ -10345,6 +10345,7 @@ __webpack_require__(17);
 __webpack_require__(18);
 __webpack_require__(19);
 __webpack_require__(20);
+__webpack_require__(21);
 
 //EXTERNAL JS
 
@@ -18301,6 +18302,47 @@ $(document).ready(function () {
     });
     $('.ccformfield').on('keydown', function () {
         $('.alert__block').removeClass('active__alert');
+    });
+});
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
+/***/ }),
+/* 21 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function($) {
+
+$(document).ready(function () {
+    var i = 0;
+
+    $('#icon-wrap-2').click(function () {
+        if (i == 0) {
+            if ($(this).hasClass('toClose')) {
+                $(this).removeClass('toClose').addClass('toOpen');
+            } else {
+                $(this).removeClass('toOpen').addClass('toClose');
+            }
+            $('.menu__block').toggleClass('menu__active');
+
+            setTimeout(function () {
+                $('.menu__items').toggleClass('menu__items-active');
+            }, 600);
+            i++;
+        } else {
+            if ($(this).hasClass('toClose')) {
+                $(this).removeClass('toClose').addClass('toOpen');
+            } else {
+                $(this).removeClass('toOpen').addClass('toClose');
+            }
+
+            $('.menu__items').toggleClass('menu__items-active');
+            setTimeout(function () {
+
+                $('.menu__block').toggleClass('menu__active');
+            }, 600);
+            i--;
+        }
     });
 });
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
