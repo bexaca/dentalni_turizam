@@ -1,18 +1,46 @@
-.social {
-  width: 200px;
-  height: 220px;
-  position: fixed;
-  margin-top: 30px;
-  perspective: 1000px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  z-index: 100;
-  .fa:hover{
-    color: white;
+.social__block {
+  @include respond-to(md) {
+    margin: 50px 0;
+  }
+  ul.social {
+    width: 200px;
+    height: 220px;
+    position: fixed;
+    margin-top: 30px;
+    perspective: 1000px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 100;
+    @include respond-to(md) {
+      text-align: center;
+      display: block;
+      position: static;
+      -webkit-transform: translateY(0%);
+      -moz-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+      -o-transform: translateY(0%);
+      transform: translateY(0%);
+      margin-top: 0;
+      width: 100%;
+      height: auto;
+    }
+    li {
+      @include respond-to(md){
+        display: inline-block;
+      }
+      a.fa {
+        @include respond-to(md){
+          border-radius: 5px;
+        }
+      }
+    }
+    .fa:hover {
+      color: white;
+    }
   }
 }
 
@@ -22,9 +50,7 @@
   width: 40px;
   background: #222;
   border-bottom: 1px solid #333;
-  font: normal normal normal
-  16px/20px
-'FontAwesome', 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font: normal normal normal 16px/20px 'FontAwesome', 'Source Sans Pro', Helvetica, Arial, sans-serif;
   color: #fff;
   -webkit-font-smoothing: antialiased;
   padding: 10px 40px 30px 25px;
@@ -33,13 +59,29 @@
   transition: background .5s ease .300ms
 }
 
-.social li:first-child  a:hover { background: #3b5998 }
-.social li:nth-child(2) a:hover { background: #00acee }
-.social li:nth-child(3) a:hover { background: #ea4c89 }
-.social li:nth-child(4) a:hover { background: #dd4b39 }
+.social li:first-child a:hover {
+  background: #3b5998
+}
 
-.social li:first-child a { border-radius: 0 5px 0 0 }
-.social li:last-child  a { border-radius: 0 0 5px 0 }
+.social li:nth-child(2) a:hover {
+  background: #00acee
+}
+
+.social li:nth-child(3) a:hover {
+  background: #ea4c89
+}
+
+.social li:nth-child(4) a:hover {
+  background: #dd4b39
+}
+
+.social li:first-child a {
+  border-radius: 0 5px 0 0
+}
+
+.social li:last-child a {
+  border-radius: 0 0 5px 0
+}
 
 .social li a span {
   width: 110px;
@@ -72,5 +114,8 @@
 .social li a:hover span {
   visibility: visible;
   opacity: 1;
-  transform: rotateY(0)
+  transform: rotateY(0);
+  @include respond-to(md) {
+    display: none;
+  }
 }
