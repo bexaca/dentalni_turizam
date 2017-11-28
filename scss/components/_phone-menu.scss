@@ -137,6 +137,15 @@
         display: block;
     }
     .menu__items{
+        top: 50%;
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 100%;
         opacity: 0;
         -webkit-transition: 0.6s ease-in-out;
         -moz-transition: 0.6s ease-in-out;
@@ -146,11 +155,11 @@
         .menu__item{
             display: block;
             text-align: center;
-            height: 20vh;
+            //height: 20vh;
             a{
                 display: block;
-                padding: 10vh;
-                font-size: 30px;
+                padding: 20px;
+                font-size: 25px;
                 color: white;
                 border-bottom: 1px solid;
             }

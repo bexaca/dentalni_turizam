@@ -16685,17 +16685,7 @@ jQuery(document).ready(function () {
             scrollTop: $(this.hash).offset().top
         }, 1000, "swing");
     });
-});
-
-// //NICE SCROLL
-// jQuery(function () {
-//     jQuery("body").niceScroll();
-// });
-
-
-$(document).ready(function () {
-    // $("html").niceScroll();
-    $("html").niceScroll({
+    $("body").niceScroll({
         scrollspeed: 80,
         mousescrollstep: 80
     });
@@ -18242,6 +18232,7 @@ $(window).on('load', function () {
     // makes sure the whole site is loaded
     $('.tooth__div').delay(250).fadeOut('slow'); // will first fade out the loading animation
     $('.preloader').delay(850).fadeOut('slow'); // will fade out the white DIV that covers the website.
+    $('.body').removeClass('body');
 });
 
 $(document).ready(function () {

@@ -19,24 +19,12 @@ jQuery(document).ready(function () {
             scrollTop: $(this.hash).offset().top
         }, 1000, "swing");
     });
-
-
-});
-
-
-// //NICE SCROLL
-// jQuery(function () {
-//     jQuery("body").niceScroll();
-// });
-
-
-
-$(document).ready(function () {
-    // $("html").niceScroll();
-    $("html").niceScroll({
+    $("body").niceScroll({
         scrollspeed: 80,
         mousescrollstep: 80,
     });
+
 });
+
 
 

@@ -47,6 +47,9 @@
   width: 8%;
   background: #FFFFFF;
   text-align: center;
+  @include respond-to(md){
+    display: none;
+  }
 }
 
 .ccformfield {
@@ -59,6 +62,10 @@
   display: block;
   //	font-family: 'Lato',Arial,sans-serif;
   font-size: 14px;
+  @include respond-to(md){
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 .ccformfield:focus {

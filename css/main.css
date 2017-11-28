@@ -6161,7 +6161,7 @@ footer p {
   text-align: center;
   margin: 15px 0 0 0;
   position: absolute;
-  z-index: 20;
+  z-index: 1;
   width: 100%;
   top: 0;
   left: 0;
@@ -6300,7 +6300,14 @@ footer p {
   text-align: center;
 }
 
-/* line 52, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_form.scss */
+@media (max-width: 991px) {
+  /* line 43, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_form.scss */
+  .ccform-addon {
+    display: none;
+  }
+}
+
+/* line 55, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_form.scss */
 .ccformfield {
   color: #000000;
   background: #FFFFFF;
@@ -6312,12 +6319,20 @@ footer p {
   font-size: 14px;
 }
 
-/* line 64, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_form.scss */
+@media (max-width: 991px) {
+  /* line 55, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_form.scss */
+  .ccformfield {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* line 71, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_form.scss */
 .ccformfield:focus {
   outline: none;
 }
 
-/* line 68, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_form.scss */
+/* line 75, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_form.scss */
 .ccbtn {
   display: block;
   border: none;
@@ -6334,13 +6349,13 @@ footer p {
   border-radius: 10px;
 }
 
-/* line 84, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_form.scss */
+/* line 91, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_form.scss */
 .ccbtn:hover {
   background: #D0BB57;
   color: white;
 }
 
-/* line 89, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_form.scss */
+/* line 96, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_form.scss */
 #submit__button:focus, #submit__button:active {
   outline: none;
 }
@@ -6512,6 +6527,15 @@ footer p {
 
 /* line 139, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_phone-menu.scss */
 .menu__block .menu__items {
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
   opacity: 0;
   -webkit-transition: 0.6s ease-in-out;
   -moz-transition: 0.6s ease-in-out;
@@ -6520,28 +6544,27 @@ footer p {
   transition: 0.6s ease-in-out;
 }
 
-/* line 146, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_phone-menu.scss */
+/* line 155, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_phone-menu.scss */
 .menu__block .menu__items .menu__item {
   display: block;
   text-align: center;
-  height: 20vh;
 }
 
-/* line 150, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_phone-menu.scss */
+/* line 159, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_phone-menu.scss */
 .menu__block .menu__items .menu__item a {
   display: block;
-  padding: 10vh;
-  font-size: 30px;
+  padding: 20px;
+  font-size: 25px;
   color: white;
   border-bottom: 1px solid;
 }
 
-/* line 159, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_phone-menu.scss */
+/* line 168, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_phone-menu.scss */
 .menu__block .menu__items.menu__items-active {
   opacity: 1;
 }
 
-/* line 163, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_phone-menu.scss */
+/* line 172, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_phone-menu.scss */
 .menu__block.menu__active {
   top: 0;
 }
@@ -6979,7 +7002,7 @@ footer p {
 }
 
 /* line 1, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
-body {
+.body {
   overflow: hidden;
 }
 
@@ -7029,9 +7052,17 @@ body {
   position: fixed;
   right: 20px;
   bottom: 20px;
+  z-index: 999;
 }
 
-/* line 41, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+@media (max-width: 991px) {
+  /* line 35, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+  .go_up {
+    display: none;
+  }
+}
+
+/* line 45, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .scroll-up {
   height: 40px;
   width: 40px;
@@ -7042,7 +7073,7 @@ body {
   cursor: pointer;
 }
 
-/* line 50, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+/* line 54, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .scroll-up svg line {
   stroke-width: 1;
   stroke: #aaa;
@@ -7052,31 +7083,31 @@ body {
   transition: all .4s ease;
 }
 
-/* line 59, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+/* line 63, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .scroll-up:hover svg line.top {
   -webkit-transform: translateX(-40px);
   transform: translateX(-40px);
 }
 
-/* line 63, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+/* line 67, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .scroll-up:hover svg line.bottom {
   -webkit-transform: translateX(40px);
   transform: translateX(40px);
 }
 
-/* line 67, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+/* line 71, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .scroll-up:hover svg line.left {
   -webkit-transform: translateY(40px);
   transform: translateY(40px);
 }
 
-/* line 71, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+/* line 75, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .scroll-up:hover svg line.right {
   -webkit-transform: translateY(-40px);
   transform: translateY(-40px);
 }
 
-/* line 79, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+/* line 83, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .scroll-up .left-bar {
   position: absolute;
   z-index: 1;
@@ -7088,7 +7119,7 @@ body {
   transform: rotate(-45deg);
 }
 
-/* line 88, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+/* line 92, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .scroll-up .left-bar:after {
   content: "";
   background-color: #666;
@@ -7101,7 +7132,7 @@ body {
   z-index: -1;
 }
 
-/* line 100, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+/* line 104, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .scroll-up .right-bar {
   position: absolute;
   z-index: 1;
@@ -7114,7 +7145,7 @@ body {
   border-radius: 2px;
 }
 
-/* line 110, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+/* line 114, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .scroll-up .right-bar:after {
   content: "";
   background-color: #666;
@@ -7127,32 +7158,32 @@ body {
   z-index: -1;
 }
 
-/* line 122, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+/* line 126, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .scroll-up:hover {
   transition: all .1s;
 }
 
-/* line 124, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+/* line 128, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .scroll-up:hover .left-bar:after {
   transform: rotate(-10deg);
 }
 
-/* line 127, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+/* line 131, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .scroll-up:hover .right-bar:after {
   transform: rotate(10deg);
 }
 
-/* line 133, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+/* line 137, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .heading__block {
   margin-bottom: 30px;
 }
 
-/* line 134, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+/* line 138, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .heading__block .row {
   margin-bottom: 50px;
 }
 
-/* line 138, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+/* line 142, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .heading__block .section__heading {
   margin-bottom: 25px;
   position: relative;
@@ -7161,7 +7192,7 @@ body {
   font-size: 45px;
 }
 
-/* line 145, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+/* line 149, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .heading__block .section__heading:after {
   margin: 0 20px 8px 0;
   height: 3px;
@@ -7175,27 +7206,61 @@ body {
   transform: translate(-100%, 50%);
 }
 
-/* line 157, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+/* line 161, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .heading__block .section__paragraph {
   font-size: 18px;
 }
 
-/* line 161, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+/* line 165, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .heading__block h3 {
   color: #D0BB57;
 }
 
-/* line 166, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+@media (max-width: 991px) {
+  /* line 169, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+  .heading__block div.image__block_row {
+    margin-bottom: 0;
+  }
+}
+
+/* line 174, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .flex__block {
   display: flex;
 }
 
-/* line 170, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+@media (max-width: 991px) {
+  /* line 174, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+  .flex__block {
+    display: block;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 179, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+  .flex__block .desktop__image_block {
+    display: none;
+  }
+}
+
+/* line 184, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+.flex__block .mobile__image_block {
+  display: none;
+  height: 150px;
+}
+
+@media (max-width: 991px) {
+  /* line 184, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+  .flex__block .mobile__image_block {
+    display: block;
+  }
+}
+
+/* line 194, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .image__block {
   border-radius: 10px;
 }
 
-/* line 175, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+/* line 199, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .partners__block a img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -7207,7 +7272,7 @@ body {
   transition: 0.6s ease-in-out;
 }
 
-/* line 185, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+/* line 209, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
 .partners__block a img:hover {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);

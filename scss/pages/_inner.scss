@@ -1,4 +1,4 @@
-body {
+.body{
     overflow: hidden;
 }
 
@@ -36,6 +36,10 @@ body {
     position: fixed;
     right: 20px;
     bottom: 20px;
+    z-index: 999;
+    @include respond-to(md) {
+        display: none;
+    }
 }
 
 .scroll-up {
@@ -162,9 +166,29 @@ body {
         color: $yellow;
     }
 }
-
+.heading__block div.image__block_row{
+    @include respond-to(md){
+        margin-bottom: 0;
+    }
+}
 .flex__block {
     display: flex;
+    @include respond-to(md){
+        display: block;
+    }
+    .desktop__image_block{
+        @include respond-to(md){
+            display: none;
+        }
+    }
+    .mobile__image_block{
+        display: none;
+        height: 150px;
+        @include respond-to(md){
+            display: block;
+
+        }
+    }
 }
 
 .image__block {
