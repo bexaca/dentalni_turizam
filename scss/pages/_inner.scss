@@ -36,7 +36,7 @@
     position: fixed;
     right: 20px;
     bottom: 20px;
-    z-index: 999;
+    z-index: 25;
     @include respond-to(md) {
         display: none;
     }
@@ -211,4 +211,7 @@
         filter: grayscale(0);
         opacity: 1;
     }
+}
+.sl-slider-wrapper{
+    z-index:26;
 }

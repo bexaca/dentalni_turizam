@@ -5,7 +5,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.map" afterPath="$PROJECT_DIR$/css/main.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/components/_social.scss" afterPath="$PROJECT_DIR$/scss/components/_social.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bundle.js" afterPath="$PROJECT_DIR$/js/bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/components/_phone-menu.scss" afterPath="$PROJECT_DIR$/scss/components/_phone-menu.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/pages/_inner.scss" afterPath="$PROJECT_DIR$/scss/pages/_inner.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack/jsFiles/phone-navigation.js" afterPath="$PROJECT_DIR$/webpack/jsFiles/phone-navigation.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +31,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="945" column="9" lean-forward="true" selection-start-line="945" selection-start-column="9" selection-end-line="1054" selection-end-column="14" />
+            <state relative-caret-position="238">
+              <caret line="484" column="46" lean-forward="false" selection-start-line="484" selection-start-column="37" selection-end-line="484" selection-end-column="46" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -42,8 +45,8 @@
       <file leaf-file-name="_phone-menu.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/components/_phone-menu.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2720">
-              <caret line="160" column="29" lean-forward="false" selection-start-line="160" selection-start-column="29" selection-end-line="160" selection-end-column="29" />
+            <state relative-caret-position="102">
+              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -59,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phone-navigation.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="phone-navigation.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webpack/jsFiles/phone-navigation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="612">
+              <caret line="36" column="45" lean-forward="false" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -92,8 +95,8 @@
       <file leaf-file-name="_inner.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/pages/_inner.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="194" column="24" lean-forward="true" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="24" />
+            <state relative-caret-position="738">
+              <caret line="215" column="14" lean-forward="false" selection-start-line="215" selection-start-column="14" selection-end-line="215" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -109,7 +112,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_social.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_social.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/components/_social.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
@@ -150,6 +153,8 @@
       <find>z-index: 1000;</find>
       <find>go_up</find>
       <find>z-index</find>
+      <find>sl-slider-wrapper</find>
+      <find>icon-wrap</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -175,18 +180,18 @@
         <option value="$PROJECT_DIR$/css/custom.css" />
         <option value="$PROJECT_DIR$/scss/components/_menu.scss" />
         <option value="$PROJECT_DIR$/icon.svg" />
-        <option value="$PROJECT_DIR$/webpack/jsFiles/phone-navigation.js" />
         <option value="$PROJECT_DIR$/scss/layout/_header.scss" />
         <option value="$PROJECT_DIR$/css/external_css/custom.css" />
         <option value="$PROJECT_DIR$/scss/external_css/custom.scss" />
         <option value="$PROJECT_DIR$/webpack/jsFiles/custom.js" />
         <option value="$PROJECT_DIR$/webpack/jsFiles/replace_me.js" />
-        <option value="$PROJECT_DIR$/scss/components/_phone-menu.scss" />
         <option value="$PROJECT_DIR$/scss/components/_cards.scss" />
-        <option value="$PROJECT_DIR$/scss/pages/_inner.scss" />
         <option value="$PROJECT_DIR$/scss/components/_form.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/components/_social.scss" />
+        <option value="$PROJECT_DIR$/scss/pages/_inner.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scss/components/_phone-menu.scss" />
+        <option value="$PROJECT_DIR$/webpack/jsFiles/phone-navigation.js" />
       </list>
     </option>
   </component>
@@ -334,12 +339,12 @@
       <workItem from="1511818514092" duration="1461000" />
       <workItem from="1511886865938" duration="2218000" />
       <workItem from="1511895389658" duration="3194000" />
-      <workItem from="1511903694493" duration="1449000" />
+      <workItem from="1511903694493" duration="2348000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56085000" />
+    <option name="totallyTimeSpent" value="56984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -654,26 +659,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/jsFiles/phone-navigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack/jsFiles/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/components/_phone-menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2720">
-          <caret line="160" column="29" lean-forward="false" selection-start-line="160" selection-start-column="29" selection-end-line="160" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -694,14 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/pages/_inner.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="194" column="24" lean-forward="true" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/components/_form.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="658">
@@ -710,10 +691,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_social.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/pages/_inner.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="215" column="14" lean-forward="false" selection-start-line="215" selection-start-column="14" selection-end-line="215" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="945" column="9" lean-forward="true" selection-start-line="945" selection-start-column="9" selection-end-line="1054" selection-end-column="14" />
+        <state relative-caret-position="238">
+          <caret line="484" column="46" lean-forward="false" selection-start-line="484" selection-start-column="37" selection-end-line="484" selection-end-column="46" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -722,10 +719,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/components/_social.scss">
+    <entry file="file://$PROJECT_DIR$/scss/components/_phone-menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/jsFiles/phone-navigation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <caret line="36" column="45" lean-forward="false" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
           <folding />
         </state>
       </provider>

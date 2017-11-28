@@ -6368,10 +6368,10 @@ footer p {
 /* line 5, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_phone-menu.scss */
 #wrapper .icon-wrap {
   display: none;
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 20px;
-  z-index: 21;
+  z-index: 28;
 }
 
 @media (max-width: 991px) {
@@ -6509,7 +6509,7 @@ footer p {
   width: 100%;
   height: 100%;
   background-color: #d0bb57e0;
-  z-index: 20;
+  z-index: 27;
   display: none;
   -webkit-transition: 0.6s ease-in-out;
   -moz-transition: 0.6s ease-in-out;
@@ -7097,7 +7097,7 @@ footer p {
   position: fixed;
   right: 20px;
   bottom: 20px;
-  z-index: 999;
+  z-index: 25;
 }
 
 @media (max-width: 991px) {
@@ -7322,6 +7322,11 @@ footer p {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
   opacity: 1;
+}
+
+/* line 215, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/pages/_inner.scss */
+.sl-slider-wrapper {
+  z-index: 26;
 }
 
 /* line 2, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/external_css/custom.scss */

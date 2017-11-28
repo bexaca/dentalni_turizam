@@ -4,10 +4,10 @@
 
 #wrapper .icon-wrap {
     display: none;
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 20px;
-    z-index: 21;
+    z-index: 28;
     @include respond-to(md){
         display: block;
     }
@@ -126,7 +126,7 @@
     width: 100%;
     height: 100%;
     background-color: #d0bb57e0;
-    z-index: 20;
+    z-index: 27;
     display: none;
     -webkit-transition: 0.6s ease-in-out;
     -moz-transition: 0.6s ease-in-out;
