@@ -15,14 +15,15 @@ jQuery(document).ready(function () {
 
     $('a[href*=\\#].scroll').on('click', function (event) {
         event.preventDefault();
-        $('html,body').animate({
-            scrollTop: $(this.hash).offset().top
+        $('html,body').delay(200).animate({
+            scrollTop: $(this.hash).offset().top - 382
         }, 1000, "swing");
     });
     $("body").niceScroll({
         scrollspeed: 80,
         mousescrollstep: 80,
     });
+    new WOW().init();
 
 });
 
