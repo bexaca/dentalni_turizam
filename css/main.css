@@ -6557,13 +6557,13 @@ footer p {
 
 @media (max-width: 991px) {
   /* line 1, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_social.scss */
-  .social__block {
-    margin: 50px 0;
+  .social__block.social__block-mobile {
+    display: none;
   }
 }
 
 /* line 5, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_social.scss */
-.social__block ul.social {
+.social__block.social__block-mobile ul.social {
   width: 200px;
   height: 220px;
   position: fixed;
@@ -6580,7 +6580,7 @@ footer p {
 
 @media (max-width: 991px) {
   /* line 5, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_social.scss */
-  .social__block ul.social {
+  .social__block.social__block-mobile ul.social {
     text-align: center;
     display: block;
     position: static;
@@ -6597,20 +6597,20 @@ footer p {
 
 @media (max-width: 991px) {
   /* line 31, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_social.scss */
-  .social__block ul.social li {
+  .social__block.social__block-mobile ul.social li {
     display: inline-block;
   }
 }
 
 @media (max-width: 991px) {
   /* line 35, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_social.scss */
-  .social__block ul.social li a.fa {
+  .social__block.social__block-mobile ul.social li a.fa {
     border-radius: 5px;
   }
 }
 
 /* line 41, C:/xampp/htdocs/www/dentalni_turizam/dentalni_turizam/scss/components/_social.scss */
-.social__block ul.social .fa:hover {
+.social__block.social__block-mobile ul.social .fa:hover {
   color: white;
 }
 

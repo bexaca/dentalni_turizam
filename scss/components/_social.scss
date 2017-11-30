@@ -1,6 +1,6 @@
-.social__block {
+.social__block.social__block-mobile{
   @include respond-to(md) {
-    margin: 50px 0;
+    display: none;
   }
   ul.social {
     width: 200px;

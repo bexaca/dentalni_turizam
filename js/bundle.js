@@ -17218,7 +17218,8 @@ jQuery(document).ready(function () {
     });
     $("body").niceScroll({
         scrollspeed: 80,
-        mousescrollstep: 80
+        mousescrollstep: 80,
+        horizrailenabled: false
     });
 
     new WOW().init();
