@@ -10338,8 +10338,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 //CUSTOM JS
 
-__webpack_require__(15); //BOOTSTRAP JS
-
+__webpack_require__(15);
+// require('imports?this=>window!./jsFiles/wow.js');
+//BOOTSTRAP JS
 __webpack_require__(16);
 __webpack_require__(17);
 __webpack_require__(18);
@@ -13327,7 +13328,7 @@ __webpack_require__(14)
 
     return WOW;
   }();
-}).call(undefined);
+}).call(window);
 
 /***/ }),
 /* 16 */
@@ -17219,6 +17220,7 @@ jQuery(document).ready(function () {
         scrollspeed: 80,
         mousescrollstep: 80
     });
+
     new WOW().init();
 });
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0), __webpack_require__(0)))

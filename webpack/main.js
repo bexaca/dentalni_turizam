@@ -4,6 +4,7 @@ import Bootstrap from "bootstrap";
 //CUSTOM JS
 
 require ('./jsFiles/wow.js');
+// require('imports?this=>window!./jsFiles/wow.js');
 require ('./jsFiles/jquery.nicescroll.js');
 require ('./jsFiles/custom.js');
 require ('./jsFiles/classie.js');

@@ -23,7 +23,10 @@ jQuery(document).ready(function () {
         scrollspeed: 80,
         mousescrollstep: 80,
     });
+
+
     new WOW().init();
+
 
 });
 
