@@ -1,5 +1,5 @@
 
-.cl-effect-4 {
+.navigation__block-inner {
     z-index: 999999999;
     position: absolute;
     left: 0;
@@ -34,11 +34,11 @@ nav a:focus {
     text-decoration: none;
 }
 
-.cl-effect-4 a {
+.navigation__block-inner a {
     padding: 0 0 5px;
 }
 
-.cl-effect-4 a::after {
+.navigation__block-inner a::after {
     position: absolute;
     top: 100%;
     left: 0;
@@ -55,8 +55,8 @@ nav a:focus {
     transform: translateY(-10px);
 }
 
-.cl-effect-4 a:hover::after,
-.cl-effect-4 a:focus::after {
+.navigation__block-inner a:hover::after,
+.navigation__block-inner a:focus::after {
     height: 2px;
     opacity: 1;
     -webkit-transform: translateY(0px);
@@ -66,7 +66,7 @@ nav a:focus {
 
 
 /*
-.cl-effect-4 a {
+.navigation__block-inner a {
     color: white;
     font-weight: bold;
     padding: 20px;
@@ -76,15 +76,15 @@ nav a:focus {
 
 /* ------------------------------------------------------------------SLIDER----------------------------------------------- */
 
-.demo-2 .sl-slider-wrapper {
+.hero__header_slider .sl-slider-wrapper {
     width: 100%;
     height: 100vh;
     overflow: hidden;
     position: relative;
 }
 
-.demo-2 .sl-slider h2,
-.demo-2 .sl-slider blockquote {
+.hero__header_slider .sl-slider h2,
+.hero__header_slider .sl-slider blockquote {
     padding: 100px 30px 10px 30px;
     width: 80%;
     max-width: 960px;
@@ -94,19 +94,19 @@ nav a:focus {
     z-index: 100;
 }
 
-.demo-2 .sl-slider h2 {
+.hero__header_slider .sl-slider h2 {
     font-size: 100px;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
 }
 
-.demo-2 .sl-slider blockquote {
+.hero__header_slider .sl-slider blockquote {
     font-size: 28px;
     padding-top: 10px;
     font-weight: 300;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
 }
 
-.demo-2 .sl-slider blockquote cite {
+.hero__header_slider .sl-slider blockquote cite {
     font-size: 16px;
     font-weight: 700;
     font-style: normal;
@@ -116,7 +116,7 @@ nav a:focus {
     display: inline-block;
 }
 
-.demo-2 .bg-img {
+.hero__header_slider .bg-img {
     padding: 200px;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
@@ -195,7 +195,7 @@ nav a:focus {
     box-shadow: 0 1px 1px rgba(255, 255, 255, 0.4), inset 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-.demo-2 .nav-dots span {
+.hero__header_slider .nav-dots span {
     background: rgba(150, 150, 150, 0.1);
     margin: 6px;
     -webkit-transition: all 0.2s;
@@ -206,8 +206,8 @@ nav a:focus {
     box-shadow: 0 1px 1px rgba(255, 255, 255, 0.4), inset 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 0 2px rgba(255, 255, 255, 0.5);
 }
 
-.demo-2 .nav-dots span.nav-dot-current,
-.demo-2 .nav-dots span:hover {
+.hero__header_slider .nav-dots span.nav-dot-current,
+.hero__header_slider .nav-dots span:hover {
     box-shadow: 0 1px 1px rgba(255, 255, 255, 0.4), inset 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 0 5px rgba(255, 255, 255, 0.5);
 }
 
@@ -225,7 +225,7 @@ nav a:focus {
 
 /* Content elements */
 
-.demo-2 .bg-img-0 {
+.hero__header_slider .bg-img-0 {
     background-image: url(../img/1472591822_Panorama_of_Novi_Sad.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -233,7 +233,7 @@ nav a:focus {
     background-size: cover;
 }
 
-.demo-2 .bg-img-1 {
+.hero__header_slider .bg-img-1 {
     background-image: url(../img/158878-novi-sad.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -241,7 +241,7 @@ nav a:focus {
     background-size: cover;
 }
 
-.demo-2 .bg-img-2 {
+.hero__header_slider .bg-img-2 {
     background-image: url(../img/g3.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -249,7 +249,7 @@ nav a:focus {
     background-size: cover;
 }
 
-.demo-2 .bg-img-3 {
+.hero__header_slider .bg-img-3 {
     background-image: url(../img/Novi-Sad.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -257,7 +257,7 @@ nav a:focus {
     background-size: cover;
 }
 
-.demo-2 .bg-img-4 {
+.hero__header_slider .bg-img-4 {
     background-image: url(../img/Novi_Sad_danas_2.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -265,7 +265,7 @@ nav a:focus {
     background-size: cover;
 }
 
-.demo-2 .bg-img-5 {
+.hero__header_slider .bg-img-5 {
     background-image: url(../img/tvrdjava.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -561,13 +561,13 @@ nav a:focus {
 /* Media Queries for custom slider */
 
 @media screen and (max-width: 660px) {
-    .demo-2 .sl-slider-wrapper {
+    .hero__header_slider .sl-slider-wrapper {
         height: 500px;
     }
-    .demo-2 .sl-slider h2 {
+    .hero__header_slider .sl-slider h2 {
         font-size: 36px;
     }
-    .demo-2 .sl-slider blockquote {
+    .hero__header_slider .sl-slider blockquote {
         font-size: 16px;
     }
 }

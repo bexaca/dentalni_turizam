@@ -17198,10 +17198,10 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 jQuery(document).ready(function () {
 
-    //    $('.your-class').slick({
+    //    $('.carousel__inner').slick({
     //        setting - name: setting - value
     //    });
-    $('.your-class').slick({
+    $('.carousel__inner').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
