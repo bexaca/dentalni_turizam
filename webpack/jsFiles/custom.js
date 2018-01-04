@@ -26,6 +26,12 @@ jQuery(document).ready(function () {
     });
 
 
+    if (window.location.href.indexOf("thank") >= 0){
+        setTimeout(function(){
+            window.location = (window.location.origin);
+        }, 3000);
+    }
+
     new WOW().init();
 
 
