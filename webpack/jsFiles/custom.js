@@ -12,22 +12,36 @@ jQuery(document).ready(function () {
         responsive: true,
     });
 
+    if ($('#wrapper .icon-wrap').css('display') == 'none') {
+        $('a[href*=\\#].scroll').on('click', function (event) {
+            event.preventDefault();
+            $('html,body').animate({
+                scrollTop: $(this.hash).offset().top
+            }, 1000, "swing");
+        });
+    } else {
+        $('a[href*=\\#].scroll').on('click', function (event) {
+            event.preventDefault();
+            $('html,body').delay(200).animate({
+                scrollTop: $(this.hash).offset().top - 382
+            }, 1000, "swing");
+        });
+    }
 
-    $('a[href*=\\#].scroll').on('click', function (event) {
-        event.preventDefault();
-        $('html,body').delay(200).animate({
-            scrollTop: $(this.hash).offset().top - 382
-        }, 1000, "swing");
-    });
+
     $("body").niceScroll({
+        cursorcolor:"#D0BB57",
+        cursorborder:'none',
+        bouncescroll: true,
+        autohidemode: false,
         scrollspeed: 80,
         mousescrollstep: 80,
-        horizrailenabled:false
+        horizrailenabled: false
     });
 
 
-    if (window.location.href.indexOf("thank") >= 0){
-        setTimeout(function(){
+    if (window.location.href.indexOf("thank") >= 0) {
+        setTimeout(function () {
             window.location = (window.location.origin);
         }, 3000);
     }
