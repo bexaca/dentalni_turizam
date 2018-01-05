@@ -1,4 +1,4 @@
-.body{
+.body {
     overflow: hidden;
 }
 
@@ -49,8 +49,7 @@
     right: 20px;
     bottom: 20px;
     outline: 1px solid rgba(666, 666, 666, .08);
-    cursor: pointer;
-    // transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 1.5);
+    cursor: pointer; // transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 1.5);
     svg line {
         stroke-width: 1;
         stroke: #aaa;
@@ -146,47 +145,48 @@
         color: #D0BB57;
         font-size: 45px;
     }
-    .section__heading:after {
-        margin: 0 20px 8px 0;
-        height: 3px;
-        content: " ";
-        text-shadow: none;
-        background-color: #D0BB57;
-        width: 200%;
-        position: absolute;
-        left: -20px;
-        top: 40%;
-        transform: translate(-100%, 50%);
-    }
+    // .section__heading:after {
+    //     height: 3px;
+    //     content: " ";
+    //     text-shadow: none;
+    //     background-color: #D0BB57;
+    //     width: 200%;
+    //     position: absolute;
+    //     left: -20px;
+    //     top: 40%;
+    //     transform: translate(-100%, 50%);
+    //     overflow: hidden
+    // }
     .section__paragraph {
         //margin-bottom: 50px;
         font-size: 18px;
     }
-    h3{
+    h3 {
         color: $yellow;
     }
 }
-.heading__block div.image__block_row{
-    @include respond-to(md){
+
+.heading__block div.image__block_row {
+    @include respond-to(md) {
         margin-bottom: 0;
     }
 }
+
 .flex__block {
     display: flex;
-    @include respond-to(md){
+    @include respond-to(md) {
         display: block;
     }
-    .desktop__image_block{
-        @include respond-to(md){
+    .desktop__image_block {
+        @include respond-to(md) {
             display: none;
         }
     }
-    .mobile__image_block{
+    .mobile__image_block {
         display: none;
         height: 150px;
-        @include respond-to(md){
+        @include respond-to(md) {
             display: block;
-
         }
     }
 }
@@ -195,8 +195,7 @@
     border-radius: 10px;
 }
 
-
-.partners__block a img{
+.partners__block a img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     opacity: 0.3;
@@ -205,13 +204,19 @@
     -ms-transition: 0.6s ease-in-out;
     -o-transition: 0.6s ease-in-out;
     transition: 0.6s ease-in-out;
-
-    &:hover{
+    &:hover {
         -webkit-filter: grayscale(0);
         filter: grayscale(0);
         opacity: 1;
     }
 }
-.sl-slider-wrapper{
-    z-index:26;
+
+.sl-slider-wrapper {
+    z-index: 26;
+}
+
+.row.guide__block-first {
+    @include respond-to(md) {
+        margin-bottom: 0;
+    }
 }

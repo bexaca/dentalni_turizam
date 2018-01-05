@@ -9,7 +9,7 @@ $email_from = "$visitor_email";//<== update the email address
 $email_subject = "Portfolio";
 $email_body = "$message \n\n $name $phone";
     
-$to = "bexaca@gmail.com";//<== update the email address
+$to = "dentaldream1@gmail.com";//<== update the email address
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!
